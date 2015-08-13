@@ -10,7 +10,7 @@ namespace CalculatorKata
 	{
 	public:
 		
-		TEST_METHOD(TestEmpty)
+		TEST_METHOD(EmptyStringReturns0)
 		{
 			CalculatorKata::Calculator* calculator = new CalculatorKata::Calculator();
 
@@ -19,7 +19,7 @@ namespace CalculatorKata
 			Assert::AreEqual(0, result);
 		}
 
-		TEST_METHOD(TestOne)
+		TEST_METHOD(OneReturnsNumber)
 		{
 			CalculatorKata::Calculator* calculator = new CalculatorKata::Calculator();
 
